@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QQ2018</string>
+    <string name="login_text">login</string>
+    <string name="username_text">username</string>
+    <string name="password_text">password</string>
+    <string name="btn_build_text">build</string>
+    <string name="newuser_name_text">type in new user name</string>
+    <string name="newuser_password_text">type in new user password</string>
+    <string name="new_password_text">type in password again</string>
+    <string name="age_text">type in your sge</string>
+    <string name="motto_text">type in your motto</string>
+</resources>
