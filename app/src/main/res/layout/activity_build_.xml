@@ -4,19 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.swpuiot.qq2018.Build_Activity">
-    <Button
+    <LinearLayout
         android:id="@+id/btn_bilduser"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:textColor="#ffffff"
+        android:layout_height="48dp"
         android:background="@drawable/image_background"
-        android:text="@string/btn_build_text"/>
+        >
+        <TextView
+            android:id="@+id/buid_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_build_text"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_bilduser"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="@drawable/image_background"-->
+        <!--android:text="@string/btn_build_text"/>-->
     <EditText
         android:id="@+id/text_new_username"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@+id/btn_bilduser"
-        android:text="@string/newuser_name_text"
+        android:hint="@string/newuser_name_text"
         />
     <EditText
         android:id="@+id/text_new_userpassword"
@@ -24,28 +42,28 @@
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="50dp"
-        android:text="@string/newuser_password_text"/>
+        android:hint="@string/newuser_password_text"/>
     <EditText
         android:id="@+id/text_reinport_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/text_new_userpassword"
-        android:text="@string/new_password_text"/>
+        android:hint="@string/new_password_text"/>
     <EditText
         android:id="@+id/text_age"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/text_reinport_password"
-        android:text="@string/age_text"/>
+        android:hint="@string/age_text"/>
     <EditText
         android:id="@+id/text_motto"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/text_age"
-        android:text="@string/motto_text"/>
+        android:hint="@string/motto_text"/>
     <Button
         android:id="@+id/btn_build"
         android:layout_width="300dp"
