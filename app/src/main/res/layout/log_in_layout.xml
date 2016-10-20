@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.swpuiot.qq2018.Log_In">
@@ -20,12 +19,12 @@
             android:layout_marginLeft="10dp"
             android:layout_height="36dp"
             android:layout_gravity="left|center_vertical"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
             android:src="@drawable/image_qq_logo" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:textColor="#0084ff"
+            android:textColor="#fff"
             android:textSize="22sp"
             android:layout_marginLeft="12dp"
             android:layout_gravity="center_vertical"
@@ -35,31 +34,6 @@
 
     </LinearLayout>
 
-
-    <!--<FrameLayout-->
-    <!--android:id="@+id/layout_logoin"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content">-->
-    <!--<Button-->
-    <!--android:id="@+id/btn_login"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="50dp"-->
-    <!--android:layout_gravity="left"-->
-    <!--android:text="@string/login_text"-->
-    <!--android:background="@drawable/image_background"-->
-    <!--android:layout_alignParentEnd="true"-->
-    <!--android:textColor="#ffffff"-->
-    <!--android:layout_alignParentStart="true" />-->
-
-    <!--<ImageView-->
-    <!--android:scaleType="fitStart"-->
-    <!--android:id="@+id/qq_logo"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="50dp"-->
-    <!--android:src="@drawable/image_qq_logo"-->
-    <!--android:layout_gravity="left|center_vertical" />-->
-
-    <!--</FrameLayout>-->
     <EditText
         android:id="@+id/text_username"
         android:layout_width="match_parent"
