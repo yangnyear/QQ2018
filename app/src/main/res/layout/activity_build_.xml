@@ -40,6 +40,7 @@
         android:id="@+id/text_new_userpassword"
         android:layout_below="@+id/text_new_username"
         android:layout_width="match_parent"
+        android:inputType="textPassword"
         android:layout_marginTop="20dp"
         android:layout_height="50dp"
         android:hint="@string/newuser_password_text"/>
@@ -48,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
+        android:inputType="textPassword"
         android:layout_below="@+id/text_new_userpassword"
         android:hint="@string/new_password_text"/>
     <EditText
