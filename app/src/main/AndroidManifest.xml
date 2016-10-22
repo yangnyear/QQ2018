@@ -10,7 +10,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeActivity">
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.My_Full_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Build_Activity" />
-        <activity android:name=".Log_In"></activity>
+        <activity android:name=".Log_In" />
+        <activity android:name=".My_Activity"></activity>
     </application>
 
 </manifest>
