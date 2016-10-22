@@ -71,6 +71,7 @@ public class Log_In extends Activity {
                                 return;
                             }
 
+
                             UserEntity user = responseEntity.getData();
                             Intent intent = new Intent(Log_In.this, My_Activity.class);
                             intent.putExtra( "UserEntity_data", user);
