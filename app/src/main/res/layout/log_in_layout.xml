@@ -52,6 +52,16 @@
         android:layout_below="@+id/text_username"
         android:layout_marginTop="30dp"
         android:hint="@string/password_text" />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/text_password"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/editshape"
+        android:text="@string/login_text"
+        android:textColor="#ffffff" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -59,25 +69,25 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
 
-
-        <Button
-            android:id="@+id/login"
-            android:layout_width="135dp"
-            android:layout_height="45dp"
-            android:layout_below="@+id/text_password"
+        <CheckBox
+            android:id="@+id/box_load"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/editshape"
-            android:text="@string/login_text"
-            android:textColor="#ffffff" />
+            android:textSize="20sp"
+            android:textColor="#000fff"
+            android:text="remember"
+            android:layout_height="wrap_content" />
+
+
 
         <Button
             android:id="@+id/build"
             android:layout_width="135dp"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:layout_below="@+id/text_password"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/login"
             android:background="@drawable/editshape"
             android:text="@string/btn_build_text"

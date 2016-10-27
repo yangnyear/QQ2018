@@ -14,6 +14,7 @@ public class UserEntity implements Serializable {
     private String password;
     private int age;
     private String text;
+    private String avatar;
 
     public UserEntity() {
     }
@@ -58,6 +59,14 @@ public class UserEntity implements Serializable {
         this.text = text;
     }
 
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
     @Override
     public String toString() {
         return "UserEntity{" +
@@ -66,6 +75,7 @@ public class UserEntity implements Serializable {
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", text='" + text + '\'' +
+                ", avatar='" + avatar + '\'' +
                 '}';
     }
 }

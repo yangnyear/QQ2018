@@ -16,7 +16,7 @@ public class WelcomeActivity extends Activity {
                 case SHOW_ACTIVITY:
                     Intent intent=new Intent(WelcomeActivity.this,Log_In.class);
                     startActivity(intent);
-                    finishAffinity();
+                    finish();
             }
         }
     };

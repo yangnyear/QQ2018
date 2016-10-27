@@ -22,13 +22,7 @@
 
     </LinearLayout>
 
-    <!--<Button-->
-        <!--android:id="@+id/btn_bilduser"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:textColor="#ffffff"-->
-        <!--android:background="@drawable/image_background"-->
-        <!--android:text="@string/btn_build_text"/>-->
+
     <EditText
         android:id="@+id/text_new_username"
         android:layout_width="match_parent"
